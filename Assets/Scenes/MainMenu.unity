@@ -205,7 +205,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1646722605}
+      - m_Target: {fileID: 1646722607}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LoadSceneByIndex
         m_Mode: 3
@@ -284,8 +284,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Credits
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ddba8caedb48ba24ca0a4ab1ceb89f7d, type: 2}
-  m_sharedMaterial: {fileID: 838432407789684620, guid: ddba8caedb48ba24ca0a4ab1ceb89f7d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aaae7d1fd84c2c1408b10df176ccc25e, type: 2}
+  m_sharedMaterial: {fileID: 838432407789684620, guid: aaae7d1fd84c2c1408b10df176ccc25e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -511,8 +511,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Nano Cells
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ddba8caedb48ba24ca0a4ab1ceb89f7d, type: 2}
-  m_sharedMaterial: {fileID: 838432407789684620, guid: ddba8caedb48ba24ca0a4ab1ceb89f7d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aaae7d1fd84c2c1408b10df176ccc25e, type: 2}
+  m_sharedMaterial: {fileID: 838432407789684620, guid: aaae7d1fd84c2c1408b10df176ccc25e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -735,8 +735,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Exit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ddba8caedb48ba24ca0a4ab1ceb89f7d, type: 2}
-  m_sharedMaterial: {fileID: 838432407789684620, guid: ddba8caedb48ba24ca0a4ab1ceb89f7d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aaae7d1fd84c2c1408b10df176ccc25e, type: 2}
+  m_sharedMaterial: {fileID: 838432407789684620, guid: aaae7d1fd84c2c1408b10df176ccc25e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1100,8 +1100,8 @@ AudioSource:
   m_GameObject: {fileID: 1406761343}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: a054f42d45e3b574f9be8615dc14ca04, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 7bd5c2d32b65b36409695333b57bfa76, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 3d9b9418d2b24ca439bcdeec68a9860e, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 56434101df5f713448fefc7e180df0ed, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1301,7 +1301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1646722606}
-  - component: {fileID: 1646722605}
+  - component: {fileID: 1646722607}
   m_Layer: 0
   m_Name: SceneLoader
   m_TagString: Untagged
@@ -1309,18 +1309,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1646722605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646722604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b018b61ab9a52c44ebb7761f77eb1137, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1646722606
 Transform:
   m_ObjectHideFlags: 0
@@ -1336,6 +1324,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1646722607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646722604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e95e78a2268c6840a81645494b688e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2069928401
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,8 +1395,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ddba8caedb48ba24ca0a4ab1ceb89f7d, type: 2}
-  m_sharedMaterial: {fileID: 838432407789684620, guid: ddba8caedb48ba24ca0a4ab1ceb89f7d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aaae7d1fd84c2c1408b10df176ccc25e, type: 2}
+  m_sharedMaterial: {fileID: 838432407789684620, guid: aaae7d1fd84c2c1408b10df176ccc25e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1529,8 +1529,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Options
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ddba8caedb48ba24ca0a4ab1ceb89f7d, type: 2}
-  m_sharedMaterial: {fileID: 838432407789684620, guid: ddba8caedb48ba24ca0a4ab1ceb89f7d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aaae7d1fd84c2c1408b10df176ccc25e, type: 2}
+  m_sharedMaterial: {fileID: 838432407789684620, guid: aaae7d1fd84c2c1408b10df176ccc25e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
